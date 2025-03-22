@@ -12,8 +12,8 @@ use rock_paper_scissor_sim::{Grid, PixelType};
 extern crate rand;
 extern crate sdl2;
 
-const WINDOW_WIDTH: u32 = 720;
-const WINDOW_HEIGHT: u32 = 1024;
+const WINDOW_WIDTH: u32 = 640;
+const WINDOW_HEIGHT: u32 = 640;
 
 fn handle_events(event_pump: &mut sdl2::EventPump, quit: &mut bool) {
     for event in event_pump.poll_iter() {
